@@ -1,0 +1,56 @@
+.modal-backdrop {
+        z-index: -1;
+    }
+ .main-body::-webkit-scrollbar {
+        display: none;
+        overflow:scroll;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .main-body {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+        overflow:scroll;
+    }
+    
+    .dataTables_length{
+        display:none;
+        
+    }
+    
+    #reader{
+        margin-right:auto;
+        margin-left: auto;
+        
+    }
+    
+    #data-table_filter label input,#book-table_filter label input{
+        background-color :white;
+    }
+    
+    #data-table_filter label,#book-table_filter label{
+        font-weight: bold;
+    }
+    
+    table tr th:nth-child(1), table tr td:nth-child(1){
+        overflow: hidden;
+      }
+      
+      tr,td{
+          cursor: pointer;
+      }
+      
+      .dashboard-card{
+          cursor: pointer;
+          
+      }
+      
+      
+    .custom-message{
+        display: none;
+        color:red;
+    }
+    
+    .disclaimer{
+        display:none;
+    }
